@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">AG Automation - Regression Suite</th></tr>
+<tr><td><a href="#t0">AG Regression Script Execution</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">5</td><td class="num">731,414</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AG Automation - Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AG Regression Script Execution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">sat.test.automation.scripts.AGScriptRunner</td><td><a href="#m0">run</a></td><td rowspan="5">1524149609415</td><td rowspan="5">21559</td></tr><tr class="failedeven"><td><a href="#m1">run</a></td></tr><tr class="failedeven"><td><a href="#m2">run</a></td></tr><tr class="failedeven"><td><a href="#m3">run</a></td></tr><tr class="failedeven"><td><a href="#m4">run</a></td></tr><tr><th colspan="4">AG Regression Script Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">sat.test.automation.scripts.AGScriptRunner</td><td><a href="#m5">run</a></td><td rowspan="1">1524149398265</td><td rowspan="1">211135</td></tr></tbody>
+</table>
+<h2>AG Regression Script Execution</h2><h3 id="m0">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_DealDBDeletion</td><td>DBDeal</td><td>Deal Deletion from DB</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NBCUWFD-819597&apos;, ip: &apos;100.122.38.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at sat.test.automation.core.SuperScript.createWebDriverInstance(SuperScript.java:160)
+	at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:66)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:47799/status] to be available after 20006 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:148)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_Workaround</td><td>Workaround</td><td>Workaround for Deal deletion in AgencyGateway</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen<br/>Successfully entered the value **********  in the TextBox Password on the screen Login Screen<br/>Successfully clicked the Login Button Button on the screen Login Screen<br/>Successfully clicked the link PortalManagement on the screen WelCome<br/>Successfully selected the value 2017/2018 in the ListBox FilterByYear on the screen PortalChecklist<br/>Successfully selected the value Upfront in the ListBox FilterByMarketplace on the screen PortalChecklist<br/>Successfully entered the value Carat Family in the TextBox SearchField on the screen PortalChecklist<br/>Successfully clicked the Search Button on the screen PortalChecklist<br/>Sleep Inititated for 5000ms<br/>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}<br/>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}</div></td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Error while creating the web element instance : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[1]/li[1]/div/div[1]/div/div/div/h3&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NBCUWFD-819597&apos;, ip: &apos;100.122.38.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}
+	at sat.test.automation.core.SuperScript.verifyDriver(SuperScript.java:2317)
+	at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:51)
+	at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_UserAssignmentCreation_02</td><td>UserAssignment</td><td>User Assignment Creation</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NBCUWFD-819597&apos;, ip: &apos;100.122.38.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at sat.test.automation.core.SuperScript.createWebDriverInstance(SuperScript.java:160)
+	at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:66)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:25788/status] to be available after 20002 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
+	... 35 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:148)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 36 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_UserAssignmentBatchDeletion</td><td>UserAssignment</td><td>User Assignment Batch Deletion.</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen<br/>Successfully entered the value **********  in the TextBox Password on the screen Login Screen<br/>Successfully clicked the Login Button Button on the screen Login Screen<br/>Sleep Inititated for 15000ms<br/>Successfully clicked the link Admin on the screen WelCome<br/>Successfully Minimize  Minimize on the screen WelCome<br/>Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs<br/>Sleep Inititated for 5000ms<br/>Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin<br/>Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin<br/>Successfully clicked the FilterButton Button on the screen Admin<br/>Sleep Inititated for 2000ms<br/>Successfully clicked the link UserAssignments on the screen Admin<br/>Sleep Inititated for 5000ms<br/>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"collection_selection_toggle_all"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7eda22db8f37271c10bc1f2958c07eb4
+*** Element info: {Using=id, value=collection_selection_toggle_all}</div></td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Error while creating webdriver element for the OR property : id=collection_selection_toggle_all
+	at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:367)
+	at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:48)
+	at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;collection_selection_toggle_all&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NBCUWFD-819597&apos;, ip: &apos;100.122.38.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7eda22db8f37271c10bc1f2958c07eb4
+*** Element info: {Using=id, value=collection_selection_toggle_all}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:300)
+	... 27 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_FinalApprovePageVerify_01</td><td>FinalApprovePageVerify</td><td>Verifying Layout of AgencyGateway screen.</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen<br/>Successfully entered the value **********  in the TextBox Password on the screen Login Screen<br/>Successfully clicked the Login Button Button on the screen Login Screen<br/>Successfully clicked the link UserProfile on the screen WelCome<br/>Successfully clicked the link Signout on the screen WelCome<br/>Sleep Inititated for 3000ms<br/>Sleep Inititated for 5000ms<br/>Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login<br/>Successfully entered the value feb@2018 in the TextBox Password on the screen Login<br/>Successfully clicked the SignIn Button on the screen Login<br/>Sleep Inititated for 10000ms<br/>Sleep Inititated for 5000ms<br/>Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen</div></td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen
+	at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:2225)
+	at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:48)
+	at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NBCUWFD-819597&apos;, ip: &apos;100.122.38.72&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: cd80e7021818a72ba718b03d3c8ea991
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:609)
+	... 27 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">sat.test.automation.scripts.AGScriptRunner#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>TS_UserAssignmentBatchDeletion</td><td>UserAssignment</td><td>User Assignment Batch Deletion.</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen<br/>Successfully entered the value **********  in the TextBox Password on the screen Login Screen<br/>Successfully clicked the Login Button Button on the screen Login Screen<br/>Sleep Inititated for 15000ms<br/>Successfully clicked the link Admin on the screen WelCome<br/>Successfully Minimize  Minimize on the screen WelCome<br/>Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs<br/>Sleep Inititated for 5000ms<br/>Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin<br/>Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin<br/>Successfully clicked the FilterButton Button on the screen Admin<br/>Sleep Inititated for 2000ms<br/>Successfully clicked the link UserAssignments on the screen Admin<br/>Sleep Inititated for 5000ms<br/>Current Checkbox State for the field BatchSelection is - false<br/>Expected Checkbox State for the field BatchSelection is - Yes<br/>Successfully checked the checkBox BatchSelection on the screen Admin<br/>Successfully clicked the BatchActions Button on the screen Admin<br/>Successfully clicked the BatchDelete Button on the screen Admin</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

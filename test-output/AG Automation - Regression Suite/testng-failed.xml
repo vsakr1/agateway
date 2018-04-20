@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AG Automation - Regression Suite]">
+  <listeners>
+    <listener class-name="sat.test.automation.utils.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="AG Regression Script Execution(failed)">
+    <classes>
+      <class name="sat.test.automation.scripts.AGScriptRunner">
+        <methods>
+          <include name="run" invocation-numbers="1 2 3 4 5"/>
+        </methods>
+      </class> <!-- sat.test.automation.scripts.AGScriptRunner -->
+    </classes>
+  </test> <!-- AG Regression Script Execution(failed) -->
+</suite> <!-- Failed suite [AG Automation - Regression Suite] -->

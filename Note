@@ -1,0 +1,19 @@
+Procedure for creating JAR file.
+
+1.	Open Eclipse, expand SATFramework in Project Explorer
+2.	Navigate to sat.test.automation.core package
+3.	In Global Variable.java file set configFilePath = "C:\\dev\\executable-jar-proj\\config.properties";
+4.	Click on Save
+5.	In eclipse-->Project explorer
+6.	Click on SATFramework to select
+7.	Right click on it,Select Export
+8.	Expand Java-->Select Jar File
+9.	click on Next
+10.	Verify the SATFramework is selected in Leftpane and related files should be checked in right pane.
+11.	In export destination filed name the jar file as pam_automation.jar and browse to required folder,
+	Ex:
+	C:\dev\RDC\pam_automation.jar
+12.	Click on Finish.
+13.	If any error pop up comes,Click on Ok and again Click on finish button.
+14.	Finally the jar file  pam_automation.jar should be created in provided location.
+

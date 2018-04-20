@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="6" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 15000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link Admin on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Minimize  Minimize on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the FilterButton Button on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 2000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link UserAssignments on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Current Checkbox State for the field BatchSelection is - false]]>
+    </line>
+    <line>
+      <![CDATA[Expected Checkbox State for the field BatchSelection is - Yes]]>
+    </line>
+    <line>
+      <![CDATA[Successfully checked the checkBox BatchSelection on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the BatchActions Button on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the BatchDelete Button on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link PortalManagement on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected the value 2017/2018 in the ListBox FilterByYear on the screen PortalChecklist]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected the value Upfront in the ListBox FilterByMarketplace on the screen PortalChecklist]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value Carat Family in the TextBox SearchField on the screen PortalChecklist]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Search Button on the screen PortalChecklist]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}]]>
+    </line>
+    <line>
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 15000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link Admin on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Minimize  Minimize on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the FilterButton Button on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 2000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link UserAssignments on the screen Admin]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"collection_selection_toggle_all"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7eda22db8f37271c10bc1f2958c07eb4
+*** Element info: {Using=id, value=collection_selection_toggle_all}]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link UserProfile on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the link Signout on the screen WelCome]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 3000ms]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the value feb@2018 in the TextBox Password on the screen Login]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the SignIn Button on the screen Login]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 10000ms]]>
+    </line>
+    <line>
+      <![CDATA[Sleep Inititated for 5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen]]>
+    </line>
+  </reporter-output>
+  <suite name="AG Automation - Regression Suite" duration-ms="731414" started-at="2018-04-19T14:49:58Z" finished-at="2018-04-19T15:02:09Z">
+    <groups>
+    </groups>
+    <test name="AG Regression Script Execution" duration-ms="731414" started-at="2018-04-19T14:49:58Z" finished-at="2018-04-19T15:02:09Z">
+      <class name="sat.test.automation.scripts.AGScriptRunner">
+        <test-method status="PASS" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="211135" started-at="2018-04-19T14:49:58Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T14:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_UserAssignmentBatchDeletion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserAssignment]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User Assignment Batch Deletion.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 15000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link Admin on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Minimize  Minimize on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the FilterButton Button on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 2000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link UserAssignments on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Current Checkbox State for the field BatchSelection is - false]]>
+            </line>
+            <line>
+              <![CDATA[Expected Checkbox State for the field BatchSelection is - Yes]]>
+            </line>
+            <line>
+              <![CDATA[Successfully checked the checkBox BatchSelection on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the BatchActions Button on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the BatchDelete Button on the screen Admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="21559" started-at="2018-04-19T14:53:29Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T14:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_DealDBDeletion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DBDeal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deal Deletion from DB]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at sat.test.automation.core.SuperScript.createWebDriverInstance(SuperScript.java:160)
+at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:47799/status] to be available after 20006 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
+... 35 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:148)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="21528" started-at="2018-04-19T14:53:50Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T14:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_UserAssignmentCreation_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserAssignment]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User Assignment Creation]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at sat.test.automation.core.SuperScript.createWebDriverInstance(SuperScript.java:160)
+at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:25788/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
+... 35 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:148)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="135608" started-at="2018-04-19T14:54:12Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T14:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_Workaround]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Workaround]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Workaround for Deal deletion in AgencyGateway]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while creating the web element instance : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while creating the web element instance : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}
+at org.testng.Assert.fail(Assert.java:96)
+at sat.test.automation.core.SuperScript.verifyDriver(SuperScript.java:2317)
+at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:51)
+at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link PortalManagement on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected the value 2017/2018 in the ListBox FilterByYear on the screen PortalChecklist]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected the value Upfront in the ListBox FilterByMarketplace on the screen PortalChecklist]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value Carat Family in the TextBox SearchField on the screen PortalChecklist]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Search Button on the screen PortalChecklist]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}]]>
+            </line>
+            <line>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[1]/li[1]/div/div[1]/div/div/div/h3"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 1ef0bcdef196912f7d710f8ef28e566a
+*** Element info: {Using=xpath, value=//ul[1]/li[1]/div/div[1]/div/div/div/h3}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="179842" started-at="2018-04-19T14:56:28Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T14:59:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_UserAssignmentBatchDeletion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserAssignment]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User Assignment Batch Deletion.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while creating webdriver element for the OR property : id=collection_selection_toggle_all]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while creating webdriver element for the OR property : id=collection_selection_toggle_all
+at org.testng.Assert.fail(Assert.java:85)
+at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:367)
+at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:48)
+at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"collection_selection_toggle_all"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7eda22db8f37271c10bc1f2958c07eb4
+*** Element info: {Using=id, value=collection_selection_toggle_all}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:300)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 15000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link Admin on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Minimize  Minimize on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered over the value 'USERS' within the option 'UserInfo' on the screen 'AdminTabs]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected the value Equals in the ListBox FilterSSO on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox FilterSsoTextBox on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the FilterButton Button on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 2000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link UserAssignments on the screen Admin]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"collection_selection_toggle_all"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 7eda22db8f37271c10bc1f2958c07eb4
+*** Element info: {Using=id, value=collection_selection_toggle_all}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="FAIL" signature="run(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sat.test.automation.scripts.AGScriptRunner@b0b186]" name="run" duration-ms="161601" started-at="2018-04-19T14:59:27Z" data-provider="ScriptExecutorInfo" finished-at="2018-04-19T15:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TS_FinalApprovePageVerify_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FinalApprovePageVerify]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Verifying Layout of AgencyGateway screen.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen
+at org.testng.Assert.fail(Assert.java:85)
+at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:2225)
+at sat.test.automation.scripts.BaseScriptRunner.executeTestData(BaseScriptRunner.java:48)
+at sat.test.automation.scripts.AGScriptRunner.run(AGScriptRunner.java:101)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Select Marketplace(s)" style="width: auto; text-align: left;"> is not clickable at point (118, 208). Other element would receive the click: <div class="background-fade" ng-reflect-klass="background-fade" ng-reflect-ng-class="">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NBCUWFD-819597', ip: '100.122.38.72', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\sv819597\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: cd80e7021818a72ba718b03d3c8ea991
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at sat.test.automation.core.SuperScript.actionDriver(SuperScript.java:609)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value **********  in the TextBox Password on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the Login Button Button on the screen Login Screen]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link UserProfile on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the link Signout on the screen WelCome]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 3000ms]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value 206472015 in the TextBox SSO ID on the screen Login]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the value feb@2018 in the TextBox Password on the screen Login]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the SignIn Button on the screen Login]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 10000ms]]>
+            </line>
+            <line>
+              <![CDATA[Sleep Inititated for 5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Error while performating action Upfront for the field MarketPalceList on the AgencyGateway screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- sat.test.automation.scripts.AGScriptRunner -->
+    </test> <!-- AG Regression Script Execution -->
+  </suite> <!-- AG Automation - Regression Suite -->
+</testng-results>
